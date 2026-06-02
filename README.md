@@ -1,12 +1,15 @@
-# CNC Machine
-A custom built CNC machine
 
-![](assets/Render.png)
-<span style="display: flex">
-![](assets/Onshape1.png)
-![](assets/Onshape2.png)
-![](assets/Onshape3.png)
-![](assets/Onshape4.png)
+<h1><img src="assets/Logo.png" height="75px" alt="CK Zero"></h1
+
+**A custom desktop CNC mill**
+
+<img src="assets/Render.png" width="500px" style="border-radius: 20px">
+<span style="display: flex;">
+<img src="assets/Onshape1.png" width="200px">
+<img src="assets/Onshape2.png" width="200px">
+<img src="assets/Onshape3.png" width="200px">
+<img src="assets/Onshape4.png" width="200px">
+
 </span>
 
 ## Background
