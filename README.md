@@ -12,6 +12,8 @@
 
 </span>
 
+[Onshape CAD](https://cad.onshape.com/documents/c7ce2f56ba9457b235044411/w/5da64270988a68e8e36d9466/e/d720e5cdc24e29f3d02d7b4e?renderMode=0&leftPanel=false&uiState=6a1f846e9b09696752afb0b3)
+
 ## Background
 
 When I got my first 3D printer it allowed me to instantly turn my digital designs into reality. But I always felt limited by plastic, 3D printing was for rapid **prototyping** after all. I always thought of CNCs as industrial machines out of the reach of normal people. But recently I've been able to use some CNC mills and lathes and learned how simple they really are. Then I learned about desktop CNC machines like the Carvera which allowed people to make professional metal parts in their own home. After some research, I decided to design my own machine which should hopefully open me to the world of metal machining, PCB fabrication, and more!
