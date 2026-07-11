@@ -10,6 +10,9 @@ Went and did some research on how to get this setup and bought a 1/4" bit for th
 
 Wrote some basic G-Code and cut it! (video sped up 2x)
 
+https://github.com/user-attachments/assets/d353a328-375f-4dd9-83f8-dd691ba4b7b3
+
+
 There are some immediate issues (corners are bad because the two Y rails are out of sync and lag behide due to PLA flexing) but I'm so happy with this project and am amazed I even got this far. This was such a fun project and taught me so much about CAD, CNC machines, wood/metal working, and so much more!
 
 # 7/10/2026 - Software Configuration
