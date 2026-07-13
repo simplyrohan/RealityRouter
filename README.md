@@ -1,7 +1,11 @@
+<h1 align="center">
+  <!-- <img src="assets/Logo.png" height="75px" alt="CK Zero"></h1> -->
+  <img height="100" alt="Reality Router MK1" src="https://github.com/user-attachments/assets/c1833c9d-b30f-4daa-8247-d4b9bf5516c3" />
+</h1>
+<p align="center"> <i>“From plastic, to infinity and beyond”</i> </p>
+<!-- **A custom desktop CNC mill** -->
 
-<h1><img src="assets/Logo.png" height="75px" alt="CK Zero"></h1
-
-**A custom desktop CNC mill**
+A custom designed **CNC router** built from **3D printed parts** and an **Ender 3’s electronics system**
 
 <img src="assets/Render.png" width="500px" style="border-radius: 20px">
 <span style="display: flex;">
