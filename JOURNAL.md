@@ -1,3 +1,41 @@
+# 7/22/2026 - MK2
+
+_Time Spent: 3h_
+
+Attended Outpost and OpenSauce with my CNC, it was so much fun! I got a lot of feedback from people who came to my booth and decided to start work on MK2 of this machine.
+
+I learned a lot from talking to people and other Hack Clubbers (shoutout to Raygen). Got a few takeaways:
+- The frame has to be a *lot* more rigid than I thought; I'll reprint parts in PETG-CF and add flat aluminum plates (CNCd from FabWorks or something) to reinforce cantilevers
+- Running both Y motors from a single driver is kinda stupid; see next line
+- Homing is pretty important because it would also align both Y motors independently to make sure they're level with each other
+- After the wood smoked 3 seperate times, I think an E-Stop is a good investment
+- I should think more about clamping if I want to cut aluminum
+
+I did a lot more research about commercial machines and set the following goals:
+1. Control system overhaul: I will be switching to Klipper-for-CNC instead of grblHAL + CNC.js because it offers a much more capable system thats actively maintained and also allows me to
+    - Add an on-board interface with a 3.5" touchscreen and a joystick that works with KlipperScreen (I'll likely make my own fork for a better CNC interface)
+    - See upgrade #2
+    - Have a better web interface and use the extensive Klipper plugin ecosystem
+2. Spindle Controller: I'll use an additional RP2040 MCU on the toolhead with a couple servo motors to interact with the controls on the spindle
+3. Motor Upgrades: I want to upgrade the machine to NEMA23 motors which will also require an upgraded control board, and given the Klipper upgrade I might design a custom PCB or just wire some stepper drivers to an MCU. This will be a pricey upgrade but I'll see where I can cut costs. (Hopefully will get an LDO sponsor).
+4. Z Axis Repairs: The biggest design mistake I made was shifting the spindle weight too far out from the X gantry which put too much strain on the PLA. I'll rebalance the weight with an additional linear rail
+5. Aluminum Reinforcements: After talking with people at OpenSauce, it was pretty clear the machine needed to be a lot more rigid than it was currently. I'll reinforce all load-bearing brackets with a 1/8" aluminum plate and reprint in PETG-CF
+6. Axis Homing: I'll add a XYZ touch probe to auto home axes and also add an E-Stop switch
+7. Vacuum Foot: I'll add a foot on the Z gantry to support a shop-vac hose
+
+# 7/11/2026 - Dual Y Ballscrew
+
+_Time Spent: 3.5h_
+
+Qualified for Outpost, but I want to do one last upgrade to the machine before I take it to OpenSauce.
+
+The biggest issue right now is that the Y axis lags behind on the opposite side of the ballscrew. This causes jagged corners, plastic strain, and a ton of other issues. I tried fixing it by reinforcing the brackets and tightening screws but there was still too much slack. A few days ago I decided to order a new ball screw just to fix this issue. I reprinted the same mounts for the Y axis but mirrored and installed the new ball screw. This was a super simple process since the CAD already had most of the structure for this.
+
+![](photos/IMG_4976.jpeg)
+
+
+# NOTE: All below journal entries are from before Outpost / are for Reality Router MK1
+
 # 7/10/2026 - It Works!
 
 _Time Spent: 6hr_
